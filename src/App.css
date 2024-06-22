@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 17px;
+    color: blue;
+}
+
+ul {
+    color: black;
+}
+
+span {
+    color: blue;
+}
+
+var {
+    display: block;
+    border: 1px solid black;
+    width: 50%;
+    text-wrap: wrap;
+    color: blue;
+    padding: 5px;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+    color: blue;
+}
+
+table {
+    width: 10%;
+    border-collapse: collapse;
+}
+
+img {
+    height: 35px;
+    width: 90px;
+    padding: 5px;
+}
+
+.table-overflow{
+    height: calc(100vh - 300px);
+}
