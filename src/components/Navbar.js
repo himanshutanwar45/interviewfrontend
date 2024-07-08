@@ -44,7 +44,7 @@ const Navbar = () => {
 
                         </ul>
 
-                        {!localStorage.getItem('auth-Token') ?
+                        {/* {!localStorage.getItem('auth-Token') ?
                             <form className="d-flex" role="search">
 
                                 <Link className="btn btn-outline-primary" type="submit" to="/login" >Login</Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
                                     </ul>
                                 </li>
                             </ul>
-                        }
+                        } */}
                     </div>
                 </div>
             </nav>
