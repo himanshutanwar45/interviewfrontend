@@ -21,7 +21,7 @@ const SQLInterview = ({ questions, fetchQuestions,setProgress }) => {
             <div className='bg-body-tertiary my-2' id="content">
                 <div className='col-sm-12 p-3 '>
                     {!questions || questions.length === 0 ? (
-                        <p>Nothing to display</p>
+                        <p>Please wait atleat 2 mins. Backend server is free of cost.</p>
                     ) : (
                         questions.map((item) => {
                             return (
